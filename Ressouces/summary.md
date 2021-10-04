@@ -1,14 +1,11 @@
 ![](RackMultipart20211004-4-dhgwx7_html_37adf6fd2ee92099.jpg)
 
 # RESUME DU LIVRE ImageDeblurring 2006
-
-summary and computing
-
-Nom | Intitulé du cours | Date
+Citation: Vixie, K. R. (2007). [Review of Deblurring Images: Matrices, Spectra, and Filtering, by P. C. Hansen, J. G. Nagy, & D. P. O’Leary]. SIAM Review, 49(4), 722–725. http://www.jstor.org/stable/20454052
 
 Ce document aborde des notions tels que : PSF, boundary conditions, and noise
 
-Chapitre 1 : The Image deblurring Problem
+# Chapitre 1 : The Image deblurring Problem
 
 Il s&#39;agit d&#39;une introduction aux concepts d&#39;images
 
@@ -56,7 +53,7 @@ On applique la SVD à A afin de la décomposer dans une base de vecteurs singuli
 
 Afin d&#39;éliminer ces composantes, on utilise la TSVD (SVD tronquée). Il s&#39;agit de tenir compte d&#39;un combre significatif de termes dans la décomposition de A en valeurs singulières
 
-Chapitre 2
+# Chapitre 2
 
 L&#39;objectif de ce chapitre est de montrer comment on manipule les images avec matlab.
 
@@ -74,7 +71,7 @@ On a diverses méthodes (stockage, opérations mathématiques,..) listées :
 - Enregistrer une image : imwrite(mat2gray(X), &#39;Mylmage.jpg&#39;, &#39;Quality&#39;, 100)
 -
 
-Chapitre 3
+# Chapitre 3
 
 Le chapitre 3 fournit une description mathématique du PSF et aborde aussi les conditions aux limites
 
@@ -101,7 +98,7 @@ On a plusieurs types de condition aux bords :
 - periodic boundary condition : l&#39;image se répète dans toutes les directions
 - reflexive boundary condition : L&#39;image se réflecte de part et d&#39;autres
 
-Chapitre 4:
+# Chapitre 4:
 
 Le chapitre 4 introduit et decrit les opérations (FFT) avec les structures de matrices telles que les matrices circulantes, Toeplitz et Hankel, ainsi que les produits Kronecker et aussi des algorithmes rapides pour calculer la SVD ou la decomposiiton spectrale
 
